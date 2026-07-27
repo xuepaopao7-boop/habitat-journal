@@ -1,75 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Habitat Journal | Modern Living & Smart Homes</title>
 
 <style>
-body{
-    margin:0;
-    font-family:Arial,Helvetica,sans-serif;
-    color:#222;
-    background:#faf9f6;
+
+*{
+box-sizing:border-box;
 }
+
+body{
+margin:0;
+font-family:Georgia, "Times New Roman", serif;
+background:#f8f6f1;
+color:#222;
+}
+
 
 header{
-    padding:30px 8%;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    background:white;
+height:90px;
+background:white;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 8%;
+border-bottom:1px solid #eee;
 }
+
 
 .logo{
-    font-size:28px;
-    font-weight:bold;
+font-size:32px;
+font-weight:bold;
 }
+
 
 nav a{
-    margin-left:25px;
-    text-decoration:none;
-    color:#333;
+margin-left:30px;
+text-decoration:none;
+color:#333;
+font-family:Arial,sans-serif;
 }
+
 
 .hero{
-    padding:100px 8%;
-    background:#e8e3da;
+
+min-height:650px;
+padding:120px 8%;
+background:
+linear-gradient(
+rgba(0,0,0,.35),
+rgba(0,0,0,.35)
+),
+url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c")
+center/cover;
+
+color:white;
+
 }
+
 
 .hero h1{
-    font-size:60px;
-    max-width:700px;
+
+font-size:72px;
+max-width:800px;
+line-height:1.1;
+
 }
+
 
 .hero p{
-    font-size:22px;
-    max-width:600px;
+
+font-size:24px;
+max-width:600px;
+
 }
 
-section{
-    padding:60px 8%;
-}
 
-.cards{
-    display:flex;
-    gap:30px;
-    flex-wrap:wrap;
-}
-
-.card{
-    background:white;
-    padding:30px;
-    width:280px;
-    border-radius:12px;
-}
-
-footer{
-    background:#222;
-    color:white;
-    padding:40px 8%;
-}
 </style>
 
 </head>
@@ -77,94 +87,102 @@ footer{
 
 <body>
 
+
 <header>
 
 <div class="logo">
 Habitat Journal
 </div>
 
+
 <nav>
+
 <a href="#">Home</a>
+
 <a href="#">Smart Home</a>
+
 <a href="#">Design</a>
+
 <a href="#">Lifestyle</a>
+
 </nav>
+
 
 </header>
 
 
-<div class="hero">
+<section class="hero">
+    
+
 
 <h1>
-Better Spaces.
+Better Spaces.<br>
 Smarter Living.
 </h1>
 
+
 <p>
-Habitat Journal explores modern homes,
-smart technology and inspiring living spaces.
+Exploring modern homes, intelligent technology and inspiring lifestyles.
 </p>
 
-</div>
 
+</section>
 
-
-<section>
+    <section class="featured">
 
 <h2>
 Featured Stories
 </h2>
 
-
 <div class="cards">
 
 <div class="card">
 <h3>
-Smart Homes
+Smart Home Technology
 </h3>
+
 <p>
-Discover intelligent technology changing the way we live.
+Discover the latest smart devices that make homes more comfortable and efficient.
 </p>
+
 </div>
 
 
 <div class="card">
+
 <h3>
-Interior Design
+Modern Interior Design
 </h3>
+
 <p>
-Beautiful spaces created for comfort and creativity.
+Ideas and inspiration for creating beautiful living spaces.
 </p>
+
 </div>
 
 
 <div class="card">
-<h3>
-Modern Lifestyle
-</h3>
-<p>
-Ideas for a healthier and more balanced home.
-</p>
-</div>
 
+<h3>
+Better Lifestyle
+</h3>
+
+<p>
+Explore habits and solutions for a smarter everyday life.
+</p>
+
+</div>
 
 </div>
 
 </section>
 
 
+
 <footer>
 
-<h3>
-Habitat Journal
-</h3>
-
 <p>
-Modern living, smart homes and better spaces.
+© 2026 Habitat Journal. All rights reserved.
 </p>
 
 </footer>
-
-
-</body>
-</html>
