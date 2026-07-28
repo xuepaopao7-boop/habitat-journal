@@ -1,480 +1,280 @@
-<!DOCTYPE html>
-<html>
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Habitat Journal | Modern Living & Smart Homes</title>
-
-
-<style>
-
-*{
-box-sizing:border-box;
-}
-
-
-body{
-
-margin:0;
-
-font-family:Georgia, "Times New Roman", serif;
-
-background:#f8f6f1;
-
-color:#222;
-
-}
-
-
-
-/* Header */
-
-header{
-
-height:90px;
-
-background:white;
-
-display:flex;
-
-align-items:center;
-
-justify-content:space-between;
-
-padding:0 8%;
-
-border-bottom:1px solid #eee;
-
-}
-
-
-.logo{
-
-font-size:32px;
-
-font-weight:bold;
-
-}
-
-
-
-nav a{
-
-margin-left:30px;
-
-text-decoration:none;
-
-color:#333;
-
-font-family:Arial,sans-serif;
-
-}
-
-
-
-
-/* Hero */
-
-.hero{
-
-min-height:650px;
-
-padding:120px 8%;
-
-
-background:
-
-linear-gradient(
-rgba(0,0,0,.35),
-rgba(0,0,0,.35)
-),
-
-url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c")
-
-center/cover;
-
-
-color:white;
-
-}
-
-
-
-.hero h1{
-
-font-size:72px;
-
-max-width:800px;
-
-line-height:1.1;
-
-}
-
-
-
-.hero p{
-
-font-size:24px;
-
-max-width:600px;
-
-}
-
-
-
-
-/* Featured */
-
-.featured{
-
-padding:60px 8%;
-
-}
-
-
-
-.featured h2{
-
-font-size:40px;
-
-margin-bottom:40px;
-
-}
-
-
-
-.cards{
-
-display:grid;
-
-grid-template-columns:repeat(3,1fr);
-
-gap:30px;
-
-}
-
-
-
-.card{
-
-background:white;
-
-overflow:hidden;
-
-}
-
-
-
-.card img{
-
-width:100%;
-
-height:260px;
-
-object-fit:cover;
-
-}
-
-
-
-.card h3{
-
-font-size:24px;
-
-padding:0 20px;
-
-}
-
-
-
-.card p{
-
-padding:0 20px 25px;
-
-font-family:Arial,sans-serif;
-
-line-height:1.6;
-
-}
-
-
-
-/* Footer */
-
-footer{
-
-background:#222;
-
-color:white;
-
-padding:30px 8%;
-
-text-align:center;
-
-font-family:Arial,sans-serif;
-
-}
-
-
-
-/* Mobile */
-
-@media(max-width:768px){
-
-
-header{
-
-height:auto;
-
-padding:25px;
-
-flex-direction:column;
-
-gap:20px;
-
-}
-
-
-.logo{
-
-font-size:26px;
-
-}
-
-
-nav a{
-
-margin:0 10px;
-
-}
-
-
-.hero{
-
-padding:80px 25px;
-
-min-height:500px;
-
-}
-
-
-.hero h1{
-
-font-size:45px;
-
-}
-
-
-.hero p{
-
-font-size:18px;
-
-}
-
-
-.cards{
-
-grid-template-columns:1fr;
-
-}
-
-
-}
-
-
-
-
-</style>
-
-
-</head>
-
-
-
-<body>
-
-
-
-<header>
-
-
-<div class="logo">
-
-Habitat Journal
-
-</div>
-
-
-
-<nav>
-
-<a href="#">Home</a>
-
-<a href="#">Smart Home</a>
-
-<a href="#">Design</a>
-
-<a href="#">Lifestyle</a>
-
-</nav>
-
-
-
-</header>
-
-
-
-
-
-<section class="hero">
-
-
-<h1>
-
-Better Spaces.<br>
-
-Smarter Living.
-
-</h1>
-
-
-<p>
-
-Exploring modern homes, intelligent technology and inspiring lifestyles.
-
-</p>
-
-
-
-</section>
-
-
-
-
-
-
-<section class="featured">
-
-
-<h2>
-
-Featured Stories
-
-</h2>
-
-
-
-<div class="cards">
-
-
-
-<div class="card">
-
-
-<img src="https://images.unsplash.com/photo-1558002038-1055907df827" alt="Smart Home">
-
-
-<h3>
-
-Smart Home Technology
-
-</h3>
-
-
-<p>
-
-Discover the latest smart devices that make homes more comfortable and efficient.
-
-</p>
-
-
-</div>
-
-
-
-
-
-<div class="card">
-
-
-<img src="https://images.unsplash.com/photo-1618220179428-22790b461013" alt="Interior Design">
-
-
-<h3>
-
-Modern Interior Design
-
-</h3>
-
-
-<p>
-
-Ideas and inspiration for creating beautiful living spaces.
-
-</p>
-
-
-</div>
-
-
-
-
-
-
-<div class="card">
-
-
-<img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c" alt="Lifestyle">
-
-
-<h3>
-
-Better Lifestyle
-
-</h3>
-
-
-<p>
-
-Explore habits and solutions for a smarter everyday life.
-
-</p>
-
-
-</div>
-
-
-
-</div>
-
-
-
-</section>
-
-
-
-
-
-
-
-<footer>
-
-
-<p>
-
-© 2026 Habitat Journal. All rights reserved.
-
-</p>
-
-
-</footer>
-
-
-
-
-</body>
-
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Habitat Journal — Considered Homes & Smarter Living</title>
+    <meta name="description" content="Independent stories, practical reviews and considered ideas for calmer homes, smarter rooms and better everyday living.">
+    <link rel="canonical" href="https://habitatjournal.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Habitat Journal — Considered Homes & Smarter Living">
+    <meta property="og:description" content="Independent stories and useful ideas for calmer homes, smarter rooms and better everyday living.">
+    <meta property="og:url" content="https://habitatjournal.com/">
+    <meta property="og:image" content="https://habitatjournal.com/assets/images/og.png">
+    <meta property="og:image:alt" content="Habitat Journal — Living, considered">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://habitatjournal.com/assets/images/og.png">
+    <link rel="stylesheet" href="/assets/css/styles.css?v=3">
+    <script src="/assets/js/main.js?v=3" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="site-notice">Independent home guidance · Thoughtfully researched</div>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="/" aria-label="Habitat Journal home">
+          <span class="brand-mark">Habitat Journal</span>
+          <span class="brand-subtitle">Living, considered</span>
+        </a>
+        <nav class="primary-nav" data-primary-nav aria-label="Primary navigation">
+          <a href="/" aria-current="page">Home</a>
+          <a href="/#stories">Stories</a>
+          <a href="/#topics">Topics</a>
+          <a href="/about/">About</a>
+        </nav>
+        <div class="header-tools">
+          <a class="header-action" href="/editorial-policy/">Our standards</a>
+          <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-nav-toggle>
+            <span class="nav-toggle-lines"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <div>
+              <p class="kicker">The new domestic landscape</p>
+              <h1 id="hero-title">A more <em>considered</em> way to live.</h1>
+              <p class="hero-deck">Rooms with purpose, technology that earns its place, and practical ideas for a home that feels unmistakably yours.</p>
+            </div>
+            <a class="hero-link" href="/articles/a-calmer-smarter-home/">Read the cover story</a>
+          </div>
+          <figure class="hero-image">
+            <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&amp;fit=crop&amp;w=1600&amp;q=86" alt="Warm contemporary living room with natural materials">
+            <figcaption class="hero-caption">The quiet room · Issue 01</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="editors-picks-title">
+        <div class="section-header">
+          <div>
+            <p class="section-label">Editor’s selection</p>
+            <h2 class="section-title" id="editors-picks-title">Ideas worth bringing home.</h2>
+          </div>
+          <p class="section-intro">Our editors look past novelty and noise to find ideas and objects that make everyday spaces work better.</p>
+        </div>
+
+        <div class="editor-grid">
+          <a class="lead-story" href="/articles/a-calmer-smarter-home/">
+            <div class="lead-story-image">
+              <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=1400&amp;q=84" alt="Layered neutral living room with soft lighting" loading="lazy">
+            </div>
+            <div class="lead-story-copy">
+              <p class="article-meta">Living · 7 min read</p>
+              <h3>A calmer home is not an empty one</h3>
+              <p>Why the most restorative rooms balance usefulness, warmth and just enough visual quiet.</p>
+              <span class="text-link">Read story</span>
+            </div>
+          </a>
+
+          <div class="side-stories">
+            <a class="side-story" href="/articles/kitchen-tools-earn-their-space/">
+              <div class="side-story-image">
+                <img src="https://images.unsplash.com/photo-1556912167-f556f1f39fdf?auto=format&amp;fit=crop&amp;w=700&amp;q=82" alt="Modern kitchen with timber cabinets" loading="lazy">
+              </div>
+              <div class="side-story-copy">
+                <p class="article-meta">Kitchen · 6 min</p>
+                <h3>Tools that earn their counter space</h3>
+                <p>Four questions before another appliance comes home.</p>
+              </div>
+            </a>
+            <a class="side-story" href="/articles/better-home-office-lighting/">
+              <div class="side-story-image">
+                <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&amp;fit=crop&amp;w=700&amp;q=82" alt="Bright and organised home workspace" loading="lazy">
+              </div>
+              <div class="side-story-copy">
+                <p class="article-meta">Workspace · 5 min</p>
+                <h3>The small lighting shift that changes a workday</h3>
+                <p>Layer task, ambient and natural light with intention.</p>
+              </div>
+            </a>
+            <a class="side-story" href="/articles/quiet-luxury-without-renovation/">
+              <div class="side-story-image">
+                <img src="https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&amp;fit=crop&amp;w=700&amp;q=82" alt="Minimal bedroom in natural tones" loading="lazy">
+              </div>
+              <div class="side-story-copy">
+                <p class="article-meta">Design · 8 min</p>
+                <h3>Quiet luxury without the renovation</h3>
+                <p>Texture, restraint and the power of better editing.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="stories" aria-labelledby="latest-title">
+        <div class="section-header">
+          <div>
+            <p class="section-label">The latest</p>
+            <h2 class="section-title" id="latest-title">Fresh perspectives for everyday spaces.</h2>
+          </div>
+        </div>
+
+        <div class="stories-grid">
+          <article class="story-card">
+            <a href="/articles/kitchen-tools-earn-their-space/">
+              <div class="story-card-image">
+                <img src="https://images.unsplash.com/photo-1556912167-f556f1f39fdf?auto=format&amp;fit=crop&amp;w=1200&amp;q=84" alt="Clean modern kitchen in wood and stone" loading="lazy">
+              </div>
+              <p class="article-meta">Kitchen · Practical guide</p>
+              <h3>Which kitchen tools truly earn their space?</h3>
+              <p>A useful filter for choosing appliances that support your routines instead of crowding them.</p>
+            </a>
+          </article>
+
+          <article class="story-card">
+            <a href="/articles/a-calmer-smarter-home/">
+              <div class="story-card-image">
+                <img src="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&amp;fit=crop&amp;w=1000&amp;q=84" alt="Smart home lighting and connected living space" loading="lazy">
+              </div>
+              <p class="article-meta">Smart home · Perspective</p>
+              <h3>Smart should feel almost invisible</h3>
+              <p>The best connected homes remove friction without asking for constant attention.</p>
+            </a>
+          </article>
+
+          <article class="story-card">
+            <a href="/articles/better-home-office-lighting/">
+              <div class="story-card-image">
+                <img src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&amp;fit=crop&amp;w=1000&amp;q=84" alt="Calm home office with daylight" loading="lazy">
+              </div>
+              <p class="article-meta">Workspace · How to</p>
+              <h3>Build a desk that helps you finish</h3>
+              <p>Start with light, reach and the objects you touch every day.</p>
+            </a>
+          </article>
+
+          <article class="story-card">
+            <a href="/articles/quiet-luxury-without-renovation/">
+              <div class="story-card-image">
+                <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&amp;fit=crop&amp;w=1200&amp;q=84" alt="Natural material home interior" loading="lazy">
+              </div>
+              <p class="article-meta">Design · Room notes</p>
+              <h3>The room feels expensive. The reason is restraint.</h3>
+              <p>How repetition, proportion and tactile materials bring clarity to a space.</p>
+            </a>
+          </article>
+
+          <article class="story-card">
+            <a href="/articles/a-calmer-smarter-home/">
+              <div class="story-card-image">
+                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&amp;fit=crop&amp;w=1000&amp;q=84" alt="Open-plan apartment living room" loading="lazy">
+              </div>
+              <p class="article-meta">Small spaces · Guide</p>
+              <h3>Let one room do less—and work better</h3>
+              <p>A practical case for removing a function before adding storage.</p>
+            </a>
+          </article>
+
+          <article class="story-card">
+            <a href="/articles/kitchen-tools-earn-their-space/">
+              <div class="story-card-image">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&amp;fit=crop&amp;w=1000&amp;q=84" alt="Contemporary home exterior with greenery" loading="lazy">
+              </div>
+              <p class="article-meta">Outdoor living · Field notes</p>
+              <h3>Design the threshold, not just the terrace</h3>
+              <p>The most inviting outdoor spaces begin at the door.</p>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="topics" id="topics" aria-labelledby="topics-title">
+        <div class="topics-inner">
+          <p class="section-label">Explore by topic</p>
+          <h2 class="section-title" id="topics-title">Every room tells a different story.</h2>
+          <div class="topic-grid">
+            <a class="topic-card" href="/articles/a-calmer-smarter-home/">
+              <div class="topic-image">
+                <img src="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&amp;fit=crop&amp;w=900&amp;q=82" alt="" loading="lazy">
+              </div>
+              <div class="topic-copy"><span>01</span><h3>Smart Home</h3></div>
+            </a>
+            <a class="topic-card" href="/articles/kitchen-tools-earn-their-space/">
+              <div class="topic-image">
+                <img src="https://images.unsplash.com/photo-1556912167-f556f1f39fdf?auto=format&amp;fit=crop&amp;w=900&amp;q=82" alt="" loading="lazy">
+              </div>
+              <div class="topic-copy"><span>02</span><h3>Kitchen</h3></div>
+            </a>
+            <a class="topic-card" href="/articles/quiet-luxury-without-renovation/">
+              <div class="topic-image">
+                <img src="https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&amp;fit=crop&amp;w=900&amp;q=82" alt="" loading="lazy">
+              </div>
+              <div class="topic-copy"><span>03</span><h3>Design</h3></div>
+            </a>
+            <a class="topic-card" href="/articles/better-home-office-lighting/">
+              <div class="topic-image">
+                <img src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&amp;fit=crop&amp;w=900&amp;q=82" alt="" loading="lazy">
+              </div>
+              <div class="topic-copy"><span>04</span><h3>Workspace</h3></div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="standards-band" aria-labelledby="standards-title">
+        <div class="standards-card">
+          <div>
+            <p class="section-label">How we work</p>
+            <h2 id="standards-title">Useful before fashionable.</h2>
+          </div>
+          <div class="standard-list">
+            <div class="standard-item">
+              <span class="standard-number">01</span>
+              <div><h3>Independent judgement</h3><p>Commercial relationships never determine our conclusions or coverage.</p></div>
+            </div>
+            <div class="standard-item">
+              <span class="standard-number">02</span>
+              <div><h3>Clear context</h3><p>We explain who an idea or product is for—and where it may fall short.</p></div>
+            </div>
+            <div class="standard-item">
+              <span class="standard-number">03</span>
+              <div><h3>Transparent links</h3><p>When a link may earn us a commission, we disclose it plainly.</p></div>
+            </div>
+            <a class="text-link" href="/editorial-policy/">Read our editorial policy</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="brand-mark">Habitat Journal</div>
+          <p>An independent digital publication about thoughtful interiors, useful technology and the rituals that make a place feel like home.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Explore">
+          <h3>Explore</h3>
+          <a href="/#stories">Latest stories</a>
+          <a href="/#topics">Topics</a>
+          <a href="/about/">About us</a>
+          <a href="/contact/">Contact</a>
+        </nav>
+        <nav class="footer-nav" aria-label="Policies">
+          <h3>Policies</h3>
+          <a href="/editorial-policy/">Editorial policy</a>
+          <a href="/affiliate-disclosure/">Affiliate disclosure</a>
+          <a href="/privacy/">Privacy policy</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Habitat Journal</span>
+        <span>Independent guidance for considered homes.</span>
+      </div>
+    </footer>
+  </body>
 </html>
