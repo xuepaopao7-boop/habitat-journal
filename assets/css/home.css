@@ -44,13 +44,13 @@ a:hover .home-link::after,
 .home-hero {
   width: var(--home-width);
   margin: 0 auto;
-  padding: 42px 0 88px;
+  padding: 38px 0 76px;
 }
 
 .cover-story {
   position: relative;
   display: block;
-  min-height: 660px;
+  min-height: 620px;
   overflow: hidden;
   background: var(--forest);
   color: var(--white);
@@ -80,9 +80,9 @@ a:hover .home-link::after,
   position: relative;
   z-index: 1;
   display: flex;
-  width: min(570px, 56%);
-  min-height: 660px;
-  padding: clamp(54px, 6vw, 84px);
+  width: min(560px, 56%);
+  min-height: 620px;
+  padding: clamp(50px, 5.6vw, 76px);
   flex-direction: column;
   justify-content: center;
 }
@@ -95,7 +95,7 @@ a:hover .home-link::after,
   max-width: 10ch;
   margin: 24px 0 26px;
   font-family: var(--serif);
-  font-size: clamp(3.8rem, 6vw, 6rem);
+  font-size: clamp(3.55rem, 5.45vw, 5.45rem);
   font-weight: 500;
   letter-spacing: -0.06em;
   line-height: 0.94;
@@ -106,7 +106,7 @@ a:hover .home-link::after,
   margin: 0;
   color: rgba(255, 255, 255, 0.8);
   font-family: var(--serif);
-  font-size: 1.2rem;
+  font-size: 1.13rem;
   line-height: 1.5;
 }
 
@@ -131,13 +131,13 @@ a:hover .home-link::after,
 .home-section {
   width: var(--home-width);
   margin: 0 auto;
-  padding: 86px 0 96px;
+  padding: 76px 0 84px;
   border-top: 1px solid var(--line);
 }
 
 .home-section-heading {
   display: grid;
-  margin-bottom: 44px;
+  margin-bottom: 40px;
   grid-template-columns: minmax(0, 2fr) minmax(260px, 0.8fr);
   align-items: end;
   gap: 64px;
@@ -148,7 +148,7 @@ a:hover .home-link::after,
 .home-standards h2 {
   margin: 8px 0 0;
   font-family: var(--serif);
-  font-size: clamp(2.7rem, 4.7vw, 4.7rem);
+  font-size: clamp(2.55rem, 4.2vw, 4.15rem);
   font-weight: 500;
   letter-spacing: -0.052em;
   line-height: 0.98;
@@ -163,7 +163,7 @@ a:hover .home-link::after,
 .editors-layout {
   display: grid;
   grid-template-columns: minmax(0, 2fr) minmax(300px, 0.82fr);
-  gap: clamp(44px, 6vw, 76px);
+  gap: clamp(42px, 5.3vw, 66px);
 }
 
 .editors-lead-image {
@@ -189,7 +189,7 @@ a:hover .home-link::after,
   max-width: 18ch;
   margin: 10px 0 12px;
   font-family: var(--serif);
-  font-size: clamp(2.2rem, 3.8vw, 3.7rem);
+  font-size: clamp(2.15rem, 3.25vw, 3.25rem);
   font-weight: 500;
   letter-spacing: -0.045em;
   line-height: 1.02;
@@ -231,13 +231,13 @@ a:hover .home-link::after,
 }
 
 .latest-section {
-  padding-bottom: 112px;
+  padding-bottom: 90px;
 }
 
 .latest-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 56px 28px;
+  gap: 50px 28px;
 }
 
 .latest-image {
@@ -247,10 +247,15 @@ a:hover .home-link::after,
   background: var(--paper-deep);
 }
 
+.latest-image img {
+  filter: saturate(0.84) contrast(0.97);
+}
+
 .latest-card h3 {
   margin: 9px 0 10px;
   font-family: var(--serif);
-  font-size: clamp(1.6rem, 2.3vw, 2.1rem);
+  min-height: 2.2em;
+  font-size: clamp(1.55rem, 2.05vw, 1.95rem);
   font-weight: 500;
   letter-spacing: -0.035em;
   line-height: 1.08;
@@ -262,7 +267,7 @@ a:hover .home-link::after,
 }
 
 .topic-index {
-  padding: 96px 24px 102px;
+  padding: 84px 24px 90px;
   background: var(--forest);
   color: var(--white);
 }
@@ -314,7 +319,7 @@ a:hover .home-link::after,
 }
 
 .topic-links small {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.72);
   font-size: 0.82rem;
 }
 
@@ -322,7 +327,7 @@ a:hover .home-link::after,
   display: grid;
   width: var(--home-width);
   margin: 0 auto;
-  padding: 104px 0 112px;
+  padding: 86px 0 94px;
   grid-template-columns: minmax(280px, 0.82fr) minmax(0, 1.5fr);
   gap: clamp(60px, 8vw, 116px);
 }
@@ -396,11 +401,11 @@ a:hover .home-link::after,
   }
 
   .home-hero {
-    padding: 18px 0 60px;
+    padding: 16px 0 52px;
   }
 
   .cover-story {
-    min-height: 610px;
+    min-height: 570px;
   }
 
   .cover-overlay {
@@ -409,14 +414,15 @@ a:hover .home-link::after,
 
   .cover-copy {
     width: 100%;
-    min-height: 610px;
+    min-height: 570px;
     padding: 38px 28px 44px;
     justify-content: flex-end;
   }
 
   .cover-copy h1 {
     max-width: 9ch;
-    font-size: clamp(3.2rem, 15vw, 4.5rem);
+    margin-bottom: 20px;
+    font-size: clamp(3rem, 13.7vw, 4rem);
   }
 
   .cover-copy > p:not(.home-kicker) {
@@ -428,7 +434,7 @@ a:hover .home-link::after,
   }
 
   .home-section {
-    padding: 64px 0 72px;
+    padding: 58px 0 66px;
   }
 
   .home-section-heading {
@@ -445,11 +451,12 @@ a:hover .home-link::after,
   }
 
   .latest-card h3 {
+    min-height: 0;
     font-size: 2rem;
   }
 
   .topic-index {
-    padding: 72px 16px 78px;
+    padding: 64px 16px 70px;
   }
 
   .topic-links a {
@@ -461,7 +468,7 @@ a:hover .home-link::after,
   }
 
   .home-standards {
-    padding: 76px 0 84px;
+    padding: 66px 0 74px;
   }
 
   .home-principles > div {
