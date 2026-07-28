@@ -121,9 +121,9 @@ textarea {
 
 .brand {
   display: inline-flex;
-  justify-self: center;
+  justify-self: start;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   line-height: 1;
 }
 
