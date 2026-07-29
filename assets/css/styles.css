@@ -165,7 +165,7 @@ textarea {
 
 .primary-nav a:hover::after,
 .primary-nav a:focus-visible::after,
-.primary-nav a[aria-current="page"]::after {
+.primary-nav a[aria-current]::after {
   transform: scaleX(1);
 }
 
