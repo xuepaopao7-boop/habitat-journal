@@ -1,5 +1,5 @@
 :root {
-  --home-width: min(1160px, calc(100vw - 48px));
+  --home-width: min(1320px, calc(100vw - 48px));
 }
 
 .home-kicker,
@@ -397,7 +397,7 @@ a:hover .home-link::after,
 
 @media (max-width: 720px) {
   :root {
-    --home-width: min(100% - 32px, 1160px);
+    --home-width: min(100% - 32px, 1320px);
   }
 
   .home-hero {
