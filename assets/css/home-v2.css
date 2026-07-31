@@ -236,8 +236,16 @@ a:hover .home-link::after,
 
 .latest-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 50px 28px;
+}
+
+.latest-card {
+  grid-column: span 2;
+}
+
+.latest-card--lead {
+  grid-column: span 3;
 }
 
 .latest-image {
@@ -387,6 +395,11 @@ a:hover .home-link::after,
 
   .latest-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .latest-card,
+  .latest-card--lead {
+    grid-column: auto;
   }
 
   .topic-index h2,
