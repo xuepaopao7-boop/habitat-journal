@@ -32,6 +32,15 @@ if (navToggle && primaryNav) {
 }
 
 if (primaryNav) {
+  if (window.location.pathname.startsWith("/articles/")) {
+    primaryNav.querySelectorAll("a[aria-current]").forEach((link) => {
+      link.removeAttribute("aria-current");
+    });
+    primaryNav
+      .querySelector('a[href="/stories/"]')
+      ?.setAttribute("aria-current", "location");
+  }
+
   const homeLink = primaryNav.querySelector('a[href="/"]');
   const sectionLinks = ["stories", "topics"]
     .map((id) => ({
