@@ -16,6 +16,11 @@ The following images were created specifically for Habitat Journal with OpenAI i
 - `under-cabinet-lighting-v2.webp`
 - `dehumidifier-basement-documentary-v2.webp`
 - `mesh-wifi-placement-v2.webp`
+- `induction-countertop-trial.webp`
+- `leak-sensor-under-sink.webp`
+- `heat-pump-dryer-small-space.webp`
+- `portable-power-load-plan.webp`
+- `quiet-room-sound-map.webp`
 
 ## Editorial handling
 
