@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://habitatjournal.com/</loc><lastmod>2026-08-02</lastmod></url>
-  <url><loc>https://habitatjournal.com/stories/</loc><lastmod>2026-08-02</lastmod></url>
+  <url><loc>https://habitatjournal.com/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://habitatjournal.com/stories/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://habitatjournal.com/about/</loc><lastmod>2026-08-01</lastmod></url>
   <url><loc>https://habitatjournal.com/contact/</loc><lastmod>2026-08-01</lastmod></url>
   <url><loc>https://habitatjournal.com/editorial-policy/</loc><lastmod>2026-08-01</lastmod></url>
@@ -24,4 +24,7 @@
   <url><loc>https://habitatjournal.com/articles/heat-pump-dryer-small-space/</loc><lastmod>2026-08-01</lastmod></url>
   <url><loc>https://habitatjournal.com/articles/portable-power-station-load-plan/</loc><lastmod>2026-08-01</lastmod></url>
   <url><loc>https://habitatjournal.com/articles/quiet-room-sound-map/</loc><lastmod>2026-08-01</lastmod></url>
+  <url><loc>https://habitatjournal.com/articles/seven-night-window-test/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://habitatjournal.com/articles/matter-smart-home-plan/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://habitatjournal.com/articles/home-ev-charging-route-plan/</loc><lastmod>2026-08-11</lastmod></url>
 </urlset>

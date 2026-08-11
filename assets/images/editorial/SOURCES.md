@@ -21,6 +21,9 @@ The following images were created specifically for Habitat Journal with OpenAI i
 - `heat-pump-dryer-small-space.webp`
 - `portable-power-load-plan.webp`
 - `quiet-room-sound-map.webp`
+- `seven-night-window-test.webp`
+- `matter-home-plan.webp`
+- `ev-charging-route-plan.webp`
 
 ## Editorial handling
 
